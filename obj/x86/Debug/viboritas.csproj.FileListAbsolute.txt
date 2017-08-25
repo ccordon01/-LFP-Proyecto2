@@ -1,0 +1,25 @@
+C:\Proyecto ITA WPF\Laboratorios\Module 2\viboritas\viboritas\bin\Debug\viboritas.exe
+C:\Proyecto ITA WPF\Laboratorios\Module 2\viboritas\viboritas\bin\Debug\viboritas.pdb
+C:\Proyecto ITA WPF\Laboratorios\Module 2\viboritas\viboritas\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Proyecto ITA WPF\Laboratorios\Module 2\viboritas\viboritas\obj\x86\Debug\viboritas.Form1.resources
+C:\Proyecto ITA WPF\Laboratorios\Module 2\viboritas\viboritas\obj\x86\Debug\viboritas.Properties.Resources.resources
+C:\Proyecto ITA WPF\Laboratorios\Module 2\viboritas\viboritas\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Proyecto ITA WPF\Laboratorios\Module 2\viboritas\viboritas\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Proyecto ITA WPF\Laboratorios\Module 2\viboritas\viboritas\obj\x86\Debug\viboritas.exe
+C:\Proyecto ITA WPF\Laboratorios\Module 2\viboritas\viboritas\obj\x86\Debug\viboritas.pdb
+C:\Users\Loscordonhdez\Documents\Visual Studio 2015\Projects\estesiii\viboritas\viboritas\obj\x86\Debug\viboritas.exe
+C:\Users\Loscordonhdez\Documents\Visual Studio 2015\Projects\estesiii\viboritas\viboritas\obj\x86\Debug\viboritas.pdb
+C:\Users\Loscordonhdez\Documents\Visual Studio 2015\Projects\estesiii\viboritas\viboritas\bin\Debug\viboritas.exe
+C:\Users\Loscordonhdez\Documents\Visual Studio 2015\Projects\estesiii\viboritas\viboritas\bin\Debug\viboritas.pdb
+C:\Users\Loscordonhdez\Documents\Visual Studio 2015\Projects\estesiii\viboritas\viboritas\obj\x86\Debug\viboritas.csprojResolveAssemblyReference.cache
+C:\Users\Loscordonhdez\Documents\Visual Studio 2015\Projects\estesiii\viboritas\viboritas\obj\x86\Debug\viboritas.Form1.resources
+C:\Users\Loscordonhdez\Documents\Visual Studio 2015\Projects\estesiii\viboritas\viboritas\obj\x86\Debug\viboritas.Properties.Resources.resources
+C:\Users\Loscordonhdez\Documents\Visual Studio 2015\Projects\estesiii\viboritas\viboritas\obj\x86\Debug\viboritas.csproj.GenerateResource.Cache
+C:\Users\LosCordon\Downloads\estesiii\[LFP]P2_201504427\viboritas\viboritas\obj\x86\Debug\viboritas.exe
+C:\Users\LosCordon\Downloads\estesiii\[LFP]P2_201504427\viboritas\viboritas\obj\x86\Debug\viboritas.pdb
+C:\Users\LosCordon\Downloads\estesiii\[LFP]P2_201504427\viboritas\viboritas\bin\Debug\viboritas.exe
+C:\Users\LosCordon\Downloads\estesiii\[LFP]P2_201504427\viboritas\viboritas\bin\Debug\viboritas.pdb
+C:\Users\LosCordon\Downloads\estesiii\[LFP]P2_201504427\viboritas\viboritas\obj\x86\Debug\viboritas.csprojResolveAssemblyReference.cache
+C:\Users\LosCordon\Downloads\estesiii\[LFP]P2_201504427\viboritas\viboritas\obj\x86\Debug\viboritas.Form1.resources
+C:\Users\LosCordon\Downloads\estesiii\[LFP]P2_201504427\viboritas\viboritas\obj\x86\Debug\viboritas.Properties.Resources.resources
+C:\Users\LosCordon\Downloads\estesiii\[LFP]P2_201504427\viboritas\viboritas\obj\x86\Debug\viboritas.csproj.GenerateResource.Cache

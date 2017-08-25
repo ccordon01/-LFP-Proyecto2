@@ -1,0 +1,344 @@
+<variables>
+    <var global tipo = "Entero" valor ="5*2-([100/5]+4)+14">PTS<%var>
+    <var tipo = "Cadena" valor = "No">bandera<%var>
+    <var tipo = "Entero" valor = "5">vidas_heroe<%var>
+    <var tipo = "Entero" valor = "1">poder_heroe<%var>
+    <var tipo = "Booleano" valor = "verdadero">remoto_heroe<%var>
+    <var tipo = "Booleano" valor = "falso">fantasma_heroe<%var>
+<%variables>
+
+<jugador color= "azul" traje= "C:\lfyp2016\img\heroe.png">
+    <vidas>vidas_heroe<%vidas>
+    <poder>poder_heroe<%poder>
+    <remoto>remoto_heroe<%remoto>
+    <fantasma>fantasma_heroe<%fantasma>
+<%jugador>
+
+<acciones>
+    <accion id = "tomar_llave">
+        Si(bandera == "No"){
+            bandera = "Si";
+            PTS = PTS + 10;
+        }
+    <%accion>
+    <accion id = "subir_nivel">
+        Si(bandera == "Si"){
+            PTS = PTS + 10;
+        }
+    <%accion>
+    <accion id = "activar_fantasma">
+        Si(fantasma_heroe == falso){
+            fantasma_heroe = verdadero;
+        } Si no {
+            PTS = PTS + 5;
+        }
+    <%accion>
+    <accion id = "aumentar_poder">
+        Si(poder_heroe < 2){
+            poder_heroe = poder_heroe + 1;
+        } Si no {
+            PTS = PTS + 5;
+        }
+    <%accion>
+    <accion id = "aumentar_vida">
+        Si(vidas_heroe < 2){
+            vidas_heroe = vidas_heroe + 1;
+        } Si no {
+            PTS = PTS + 10;
+        }
+    <%accion>   
+<%acciones>
+
+<campo ancho = "10" alto = "10" color = "verde" textura = "C:\lfyp2016\img\campo.png">
+    <rocas>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>1<%X>
+            <Y>1<%Y>
+        <%roca> 
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>1<%X>
+            <Y>2<%Y>
+        <%roca> 
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>1<%X>
+            <Y>3<%Y>
+        <%roca> 
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>1<%X>
+            <Y>4<%Y>
+        <%roca> 
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>1<%X>
+            <Y>5<%Y>
+        <%roca> 
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>1<%X>
+            <Y>7<%Y>
+        <%roca> 
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>1<%X>
+            <Y>8<%Y>
+        <%roca> 
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>1<%X>
+            <Y>9<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>2<%X>
+            <Y>7<%Y>
+        <%roca> 
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>2<%X>
+            <Y>9<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>3<%X>
+            <Y>1<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>3<%X>
+            <Y>2<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>3<%X>
+            <Y>3<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>3<%X>
+            <Y>5<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>3<%X>
+            <Y>7<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>3<%X>
+            <Y>8<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>3<%X>
+            <Y>9<%Y>
+        <%roca>   
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>4<%X>
+            <Y>1<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>4<%X>
+            <Y>3<%Y>
+        <%roca>             
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>4<%X>
+            <Y>4<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>4<%X>
+            <Y>5<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>5<%X>
+            <Y>1<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>5<%X>
+            <Y>3<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>5<%X>
+            <Y>5<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>5<%X>
+            <Y>6<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>5<%X>
+            <Y>8<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>6<%X>
+            <Y>1<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>6<%X>
+            <Y>3<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>6<%X>
+            <Y>7<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>7<%X>
+            <Y>5<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>7<%X>
+            <Y>6<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>7<%X>
+            <Y>8<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>8<%X>
+            <Y>0<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>8<%X>
+            <Y>1<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>8<%X>
+            <Y>2<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>8<%X>
+            <Y>4<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>8<%X>
+            <Y>5<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>8<%X>
+            <Y>8<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>8<%X>
+            <Y>9<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>9<%X>
+            <Y>1<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>9<%X>
+            <Y>2<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca1.png" durable = "1">
+            <X>9<%X>
+            <Y>8<%Y>
+        <%roca>
+        <roca color = "cafe" textura = "C:\lfyp2016\img\roca2.png" durable = "0">
+            <X>9<%X>
+            <Y>9<%Y>
+        <%roca>
+    <%rocas>
+    <tesoros>
+        <llave color = "naranja" textura = "C:\lfyp2016\img\llave.png" accion = "tomar_llave">
+            <X>4<%X>
+            <Y>2<%Y>
+        <%llave>        
+        <salida color = "cafe" textura = "C:\lfyp2016\img\salida.png" accion = "subir_nivel">
+            <X>6<%X>
+            <Y>8<%Y>
+        <%salida>
+        <bono color = "naranja" textura = "C:\lfyp2016\img\bono1.png" accion = "activar_fantasma">
+            <X>9<%X>
+            <Y>0<%Y>
+        <%bono>
+        <bono color = "naranja" textura = "C:\lfyp2016\img\bono2.png" accion = "aumentar_poder">
+            <X>9<%X>
+            <Y>6<%Y>
+        <%bono>
+        <bono color = "naranja" textura = "C:\lfyp2016\img\bono3.png" accion = "aumentar_vida">
+            <X>2<%X>
+            <Y>8<%Y>
+        <%bono>
+    <%tesoros>
+<%campo>
+
+<enemigos>
+    <enemigo color = "verde" textura = "C:\lfyp2016\img\enemigo1.png" x = "0" y = "9">
+        <movimientos>
+            <movimiento>arriba<%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <movimiento>abajo<%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>          
+        <%movimientos>
+    <%enemigo>
+    <enemigo color = "verde" textura = "C:\lfyp2016\img\enemigo2.png" x = "4" y = "9">
+        <movimientos>
+            <movimiento>derecha<%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <movimiento>izquierda<%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <movimiento>arriba<%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <movimiento>abajo<%movimiento>
+            <%movimiento>
+            <%movimiento>        
+        <%movimientos>
+    <%enemigo>
+    <enemigo color = "verde" textura = "C:\lfyp2016\img\enemigo2.png" x = "2" y = "0">
+        <movimientos>
+            <movimiento>derecha<%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <movimiento>izquierda<%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <movimiento>abajo<%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <movimiento>arriba<%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>        
+        <%movimientos>
+    <%enemigo>
+    <enemigo color = "verde" textura = "C:\lfyp2016\img\enemigo3.png" x = "7" y = "7">
+        <movimientos>
+            <movimiento>derecha<%movimiento>
+            <%movimiento>
+            <movimiento>arriba<%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <movimiento>izquierda<%movimiento>
+            <%movimiento>
+            <movimiento>derecha<%movimiento>
+            <%movimiento>
+            <movimiento>abajo<%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <%movimiento>
+            <movimiento>izquierda<%movimiento>
+            <%movimiento>                    
+        <%movimientos>
+    <%enemigo>
+    <enemigo color = "verde" textura = "C:\lfyp2016\img\enemigo4.png" x = "7" y = "2">
+        <movimientos>
+            <movimiento>izquierda<%movimiento>
+            <%movimiento>
+            <movimiento>derecha<%movimiento>
+            <%movimiento>        
+        <%movimientos>
+    <%enemigo>
+<%enemigos>
